@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <meta name="Author" content="Henrique SM" />
+        <meta name="Description" content="Bem-vindo(a)" />
+        <meta name="Keywords" content="html, css," />
+        <link rel="Stylesheet" type="text/css" href="./../css-registro/registro.css">
+        <script src="../jquery-registro/JQuery-3.6.0.min.js"></script>
+        <script>
+
+            $(function(e) {
+                $("header").hide();
+                $("header").slideDown(800);
+
+                $(".login").hide();
+                $(".login").fadeIn(1500);
+
+                $(".inicial").hide();
+                $(".inicial").fadeIn(2000);
+
+                $(".redes").hide();
+                $(".redes").fadeIn(2500);
+
+
+
+            });
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    </head>
+
+
+    <body>
+    
+        <header>
+            
+            <h1 class="titulo"><u>Hause a melhor escolha</u></h1>
+
+
+            <ul>
+                <li class="redes"> <a href="../../../redes-sociais/html-social/social.html">Redes Sociais</a> </li>
+                <li class="login"> <a href="../../html-login/login.html">Login</a> </li>
+                <li class="inicial"> <a href="../../../pagina-inicial/html-inicial/index.html" title="Inicio" class="inicio">Página Inicial</a> </li>
+            </ul>
+
+            <input type="search" placeholder="Pesquisar" class="pesquisar" autofocus>
+
+
+        </header>
+
+
+
+        <!--Grid-->
+        <div id="esquerdo">
+
+            <img src="../../Wallpapers/casa1.jpg" width="100%" height="100%">
+            
+        </div>
+
+
+
+
+        <!--Registro-->
+        <div id="direita">
+
+            <span class="registro"><u>Registre-se</u></span>
+
+            <form action="#" method="post" class="formulario">
+
+                <label for="email" class="texto0">Coloque o E-Mail</label>
+                <input type="email" name="email" id="email" required size="30" maxlength="150" placeholder="Digite o E-Mail">
+
+                <br>
+
+                <label for="senha" class="texto1">Escolha uma Senha</label>
+                <input type="text" name="senha" id="senha" required size="30" maxlength="150" placeholder="Escolha uma Senha">
+
+                <br>
+
+                <label for="insira" class="texto3">Data de Nascimento</label>
+                <input type="date" class="data">
+
+                <br>
+
+                <input type="submit" value="Enviar" class="botao" title="Enviar Agora!">
+
+
+
+            </form>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

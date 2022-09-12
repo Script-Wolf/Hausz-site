@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <meta name="Author" content="Henrique SM">
+        <meta name="Description" content="Bem-vindo">
+        <meta name="Keywords" content="html, css, site">
+        <link rel="Stylesheet" type="text/css" href="../css-login/login.css">
+        <script src="../jquery-login/JQuery-3.6.0.min.js"></script>
+        <script>
+
+            //Script Login//
+            $(function(e) {
+                $("header").hide();
+                $("header").fadeIn(900);
+
+                $(".titulo").hide();
+                $(".titulo").show(1000);
+
+                $(".produtos").hide();
+                $(".produtos").fadeIn(1400);
+
+                $(".pagamentos").hide();
+                $(".pagamentos").fadeIn(1800);
+
+                $(".social").hide();
+                $(".social").fadeIn(2200);
+
+                $(".inicio").hide();
+                $(".inicio").fadeIn(2600);
+
+                $(".pesquisar").hide();
+                $(".pesquisar").slideDown(1200);
+
+                $(".imagem").hide();
+                $(".imagem").slideDown(1500);
+
+                $("main").hide();
+                $("main").fadeIn(1800);
+
+            });
+
+
+
+
+
+
+
+        </script>
+    </head>
+
+
+    <body>
+        
+        <header class="banner">
+
+            <h1 class="titulo"><u>Hause a melhor escolha</u></h1>
+
+
+            <ul>
+                <li> <a href="../../redes-sociais/html-social/social.html" title="Redes Sociais" class="social">Redes Sociais</a> </li>
+                <li> <a href="../../pagina-inicial/html-inicial/index.html" title="Inicio" class="inicio">Página Inicial</a> </li>
+            </ul>
+
+            <input type="search" placeholder="Pesquisar" class="pesquisar" autofocus>
+
+        </header>
+        
+
+
+        <main>
+
+            <form action="#" method="post" class="formulario">
+                <div id="texto">
+                 <span><u>Insira seus Dados</u></span>
+                </div>
+
+                <br>
+
+                <label for="email" class="mail">E-mail</label>
+                <br>
+                <input type="email" name="email" id="email" required size="50" maxlength="100"
+                placeholder="Digite seu E-mail:" class="email">
+
+                <br>
+
+                <label for="senha" class="password">Senha</label>
+                <br>
+                <input type="text" name="senha" id="senha" required size="20" maxlength="100" 
+                placeholder="Digite sua Senha:" class="senha">
+
+                <br>
+
+                <input type="submit" value="Enviar" class="enviar" title="Enviar">
+
+                <br>
+
+                <span class="texto2">Ainda não tem uma conta?</span>
+                <br>
+
+                <a href="../Registro/html-registro/registro.html" target="_Blank" title="Crie Já!" class="crie">Crie sua Conta</a>
+
+            </form>
+        </main>
+
+
+        <div id="imagem">
+            <img src="../Wallpapers/Girl Smile.jpg" width="668px;" height="485  px;" class="imagem">
+        </div>
+
+
+
+
+
+
+
+    </body>
+</html>

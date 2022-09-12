@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Hause</title>
+        <meta name="Author" content="Henrique SM" />
+        <meta name="Description" content="Bem-vindos a Hause" />
+        <meta name="Keywords" content="html, css, jquery" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Stylesheet" type="text/css" href="../css-inicial/inicial.css">
+        <script src="../jquery-inicial/JQuery-3.6.0.min.js"></script>
+        <script>
+
+            //Script Inicial//
+            $(function(e) {
+                $(".video").hide();
+                $(".video").fadeIn(1200);
+
+                $(".login").hide();
+                $(".login").fadeIn(3000);
+
+                $(".produtos").hide();
+                $(".produtos").fadeIn(1800);
+
+                $(".pagamentos").hide();
+                $(".pagamentos").fadeIn(2500);
+
+                $(".social").hide();
+                $(".social").fadeIn(2700);
+
+                $(".banner").hide();
+                $(".banner").slideDown(1800);
+
+                $(".titulo").hide();
+                $(".titulo").show(2500);
+
+                $(".suporte").hide();
+                $(".suporte").fadeIn(2100);
+
+
+            });
+
+
+
+
+
+
+
+
+
+        </script>
+    </head> 
+
+
+    <body>
+
+        <header class="banner">
+
+            <h1 class="titulo"><u>Hause a melhor escolha</u></h1>
+
+
+            <ul>
+                <li> <a href="../../redes-sociais/html-social/social.html" title="Redes Sociais" class="social">Redes Sociais</a> </li>
+                <li> <a href="../../login/html-login/login.html" title="Realize o seu Login e Cadastro" class="login">Login</a> </li>
+            </ul>
+
+            <input type="search" placeholder="Pesquisar" class="pesquisar" autofocus>
+
+        </header>
+
+
+
+        <!--Suporte-->
+        <div id="esquerda">
+            <span class="texto">Nosso melhor suporte</span>
+            <img src="../gifs/Suporte.gif" width="540px;" height="450px;" title="Suporte 24H" class="suporte">
+
+        </div>
+
+        
+        <!--Video-->
+        <div id="direita">
+            <span class="texto2">Nosso Trabalho</span>
+
+            <video width="100%" height="100%;" controls class="video">
+                <source src="../video/video casa.mp4">
+            </video>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Henrique SM" />
+        <meta name="Description" content="Bem-Vindos" />
+        <meta name="Keywords" content="html, css, href, site" />
+        <title>Redes Sociais</title>
+        <link rel="Stylesheet" type="text/css" href="../css-social/social.css">
+        <script src="../jquery-social/JQuery-3.6.0.min.js"></script>
+        <script>
+
+            $(function(e) {
+
+                $("#esquerda").hide();
+                $(".botao1").click(function(e) {
+                    $("#esquerda").slideToggle(800);
+                });
+                    
+                $("main").hide();                
+                $(".botao2").click(function(e) {
+                    $("main").slideToggle(800);
+                });
+
+                $("#direita").hide();
+                $(".botao3").click(function(e) {
+                    $("#direita").slideToggle(800);
+                });
+
+            });
+
+
+            $(function(e) {
+                $("header").hide();
+                $("header").fadeIn(500);
+
+            });
+
+
+
+
+
+
+
+        </script>
+    </head>
+
+
+
+    <body>
+
+        <header>
+
+            <h1 class="titulo"><u>Hause a melhor escolha</u></h1>
+
+            <ul>
+                <li> <a href="../../login/html-login/login.html" title="Realize o seu Login e Cadastro" class="login">Login</a> </li>
+                <li> <a href="../../pagina-inicial/html-inicial/index.html" title="Inicio">Página Inicial</a> </li>
+            </ul>
+
+            <input type="search" placeholder="Pesquisar" class="pesquisar" autofocus>
+
+
+        </header>
+
+        <!--Nav-->
+        <nav>
+
+            <h2><u>Clique nos botôes para mostrar as Redes Sociais</u></h2>
+
+            <input type="button" value="Nosso Instagram" class="botao1">
+            <input type="button" value="Nosso Facebook" class="botao2">
+            <input type="button" value="Nosso Whatsapp" class="botao3">
+
+        </nav>
+
+
+
+        <!--Esquerda-->
+        <div id="esquerda">
+
+            <a href="https://www.instagram.com/" target="_Blank"  title="Instagram">
+             <img src="../Wallpapers/Insta.png" width="150px" class="insta">
+            </a>
+        </div>
+
+
+
+
+        <!--Meio-->
+        <main>
+
+            <a href="https://www.facebook.com/" target="_Blank" title="Facebook">
+              <img src="../Wallpapers/Face Logo.png" width="150px" class="face">
+            </a>    
+
+        </main>
+
+
+
+
+        <!--Direita-->
+        <div id="direita">
+
+            <a href="https://www.whatsapp.com/?lang=pt_br" target="_Blank" title="Whatsapp">
+             <img src="../Wallpapers/Whats Logo.png" width="150px" class="whats">
+            </a>
+
+        </div>
+
+
+
+
+
+
+
+    </body>
+</html>
